@@ -1,0 +1,26 @@
+{
+  "name": "fy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --watch",
+    "flow": "flow"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@deck.gl/core": "^6.4.7",
+    "@deck.gl/layers": "^6.4.7",
+    "css-loader": "^2.1.1",
+    "flow-bin": "^0.95.1",
+    "js-loader": "^0.1.1",
+    "mapbox": "^1.0.0-beta10",
+    "mapbox-gl": "^0.53.1",
+    "webpack": "4.27.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "3.2.1"
+  }
+}
